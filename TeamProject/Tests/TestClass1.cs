@@ -75,5 +75,10 @@ namespace TeamProject.Tests
 		{
 			Assert.That(40247037,Is.EqualTo(40247037));
 		}
+        [Test]
+        public void CabuLanee()
+        {
+            Assert.That(1 + 1 + 1, Is.EqualTo(3));
+        }
     }
 }
